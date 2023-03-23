@@ -1,7 +1,12 @@
 import React from "react";
+import Feature from "../../components/features/Feature";
 
 function Home() {
-  return <>home</> ;
+  return (
+    <>
+      <Feature />
+    </>
+  );
 }
 
 export default Home;

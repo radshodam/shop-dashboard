@@ -9,12 +9,11 @@ function App() {
   let router = useRoutes(routes);
   return (
     <div>
-      <Topbar/>
+      <Topbar />
       <div className="container">
-      <Sidebar />
-      {router}
+        <Sidebar />
+        <div className="main">{router}</div>
       </div>
-    
     </div>
   );
 }

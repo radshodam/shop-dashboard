@@ -22,7 +22,7 @@ export default function Topbar() {
           <div className="topbarIconContainer">
             <MdOutlineSettings className="topbarIcon" />
           </div>
-          <img src="images/profile.jfif" className="topAvatar" />
+          <img src="https://avatars.githubusercontent.com/u/66701268?v=4" className="topAvatar" />
         </div>
       </div>
     </div>
