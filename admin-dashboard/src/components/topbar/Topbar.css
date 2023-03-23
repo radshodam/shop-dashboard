@@ -26,6 +26,11 @@
     display: flex;
     align-items: center;
 }
+.topbarIcon {
+    margin-right: 5px;
+    font-size: 20px;
+  }
+  
 
 .topbarIconContainer {
     position: relative;
