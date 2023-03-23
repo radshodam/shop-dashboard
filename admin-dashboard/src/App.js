@@ -10,8 +10,11 @@ function App() {
   return (
     <div>
       <Topbar/>
+      <div className="container">
       <Sidebar />
       {router}
+      </div>
+    
     </div>
   );
 }
