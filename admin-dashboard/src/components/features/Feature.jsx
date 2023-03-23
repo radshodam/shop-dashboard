@@ -1,7 +1,7 @@
 import React from "react";
-import { MdOutlineArrowDownward } from "react-icons/md";
+import { MdArrowUpward, MdOutlineArrowDownward } from "react-icons/md";
 
-import "./features.css";
+import "./feature.css";
 
 export default function Feature() {
   return (
@@ -11,7 +11,7 @@ export default function Feature() {
         <div className="featureContainer">
           <span className="featureMoney">$2,415</span>
           <span className="featureRate">
-            -11.4 <ArrowDownwardIcon className="featureIcon negative" />
+            -11.4 <MdOutlineArrowDownward className="featureIcon negative" />
           </span>
         </div>
         <span className="featureSub">Compared to last month</span>
