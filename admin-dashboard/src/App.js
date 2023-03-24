@@ -8,13 +8,13 @@ function App() {
   // useRoutes(addExternalRoutes)
   let router = useRoutes(routes);
   return (
-    <div>
+    <>
       <Topbar />
       <div className="container">
         <Sidebar />
-        <div className="main">{router}</div>
+        <>{router}</>
       </div>
-    </div>
+    </>
   );
 }
 
