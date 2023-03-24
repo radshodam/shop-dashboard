@@ -122,5 +122,54 @@ const transactions = [
     img: "https://xsgames.co/randomusers/assets/avatars/male/20.jpg",
   },
 ];
-
-export { xAxisData, newMembers, transactions };
+const userRows = [
+  {
+    id: 1,
+    username: "mohamad zareai",
+    status: "active",
+    transaction: "$129.52",
+    avatar: "https://xsgames.co/randomusers/assets/avatars/male/18.jpg",
+    email: "mohamad@hotmail.com",
+  },
+  {
+    id: 2,
+    username: "Caroline Hardy",
+    status: "active",
+    transaction: "$100.52",
+    avatar: "https://xsgames.co/randomusers/assets/avatars/female/70.jpg",
+    email: "Caroline@hotmail.com",
+  },
+  {
+    id: 3,
+    username: "qumars konani",
+    status: "active",
+    transaction: "$120.08",
+    avatar: "https://xsgames.co/randomusers/assets/avatars/male/20.jpg",
+    email: "qumars@hotmail.com",
+  },
+  {
+    id: 4,
+    username: "qasem barzegar",
+    status: "non-active",
+    transaction: "$19.02",
+    avatar: "https://xsgames.co/randomusers/assets/avatars/male/17.jpg",
+    email: "qasem@hotmail.com",
+  },
+  {
+    id: 5,
+    username: "mehdi emami",
+    status: "pending",
+    transaction: "$120.08",
+    avatar: "https://xsgames.co/randomusers/assets/avatars/male/10.jpg",
+    email: "mehdi@hotmail.com",
+  },
+  {
+    id: 6,
+    username: "shahab ebadi",
+    status: "Approved",
+    transaction: "$118.02",
+    avatar: "https://xsgames.co/randomusers/assets/avatars/male/12.jpg",
+    email: "shahab@hotmail.com",
+  },
+];
+export { xAxisData, newMembers, transactions, userRows };
