@@ -183,25 +183,25 @@ let products = [
     id: 2,
     title: "Acer",
     avatar: "images/acer.jpg",
-    price: 890,
+    price: 1_090,
   },
   {
     id: 3,
     title: "HP",
     avatar: "images/hp.jpg",
-    price: 890,
+    price: 3_390,
   },
   {
     id: 4,
     title: "Dell",
     avatar: "images/dell.jpg",
-    price: 890,
+    price: 1_890,
   },
   {
     id: 5,
     title: "Mac",
     avatar: "images/mac.jpg",
-    price: 890,
+    price: 2_890,
   },
 ];
 const productsData = [
