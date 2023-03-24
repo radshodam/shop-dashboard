@@ -172,4 +172,57 @@ const userRows = [
     email: "shahab@hotmail.com",
   },
 ];
-export { xAxisData, newMembers, transactions, userRows };
+let products = [
+  {
+    id: 1,
+    title: "Asus",
+    avatar: "images/asus.jpeg",
+    price: 890,
+  },
+  {
+    id: 2,
+    title: "Acer",
+    avatar: "images/acer.jpg",
+    price: 890,
+  },
+  {
+    id: 3,
+    title: "HP",
+    avatar: "images/hp.jpg",
+    price: 890,
+  },
+  {
+    id: 4,
+    title: "Dell",
+    avatar: "images/dell.jpg",
+    price: 890,
+  },
+  {
+    id: 5,
+    title: "Mac",
+    avatar: "images/mac.jpg",
+    price: 890,
+  },
+];
+const productsData = [
+  {
+    name: "Jan",
+    sales: 4000,
+  },
+  {
+    name: "Feb",
+    sales: 3000,
+  },
+  {
+    name: "Mar",
+    sales: 5000,
+  },
+];
+export {
+  xAxisData,
+  newMembers,
+  transactions,
+  userRows,
+  products,
+  productsData,
+};
